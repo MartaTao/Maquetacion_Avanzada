@@ -1,0 +1,49 @@
+body {
+    background-image: url(../images/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.login-wrap h3 {
+    font-weight: 300;
+    color: #fff;
+}
+.login-wrap .social a {
+    width: 100%;
+    display: block;
+    color: #000;
+    background: #fff;
+    margin-left: 10px;;
+}
+.form-control {
+    height: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 40px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+.form-control::-webkit-input-placeholder {
+    color: rgba(255, 255, 255, 0.8) !important;
+}
+.btn.btn-primary {
+    background: #fff;
+    color: #000 !important;
+}
+.btn.btn-primary:hover {
+    background:#a6ddff ;
+    color: #008575 !important;
+}
+.rmfp{
+    color:#fff;
+}
+.fpass{
+    color:#fff;
+}
+.btn-login{
+    background: #fff;
+  color: #000 !important;
+}
+.social .btn-login:hover{
+    background: #a6ddff;
+    color: #008575 !important;
+  }
