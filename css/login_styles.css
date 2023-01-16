@@ -5,7 +5,7 @@ body {
     height: 100%;
 }
 .login-wrap h3 {
-    font-weight: 300;
+    font-family: 'Alice';
     color: #fff;
 }
 .login-wrap .social a {
@@ -47,3 +47,10 @@ body {
     background: #a6ddff;
     color: #008575 !important;
   }
+  .footer{
+    margin-top: 10px;
+}
+.footer img{
+    display:block;
+    margin: auto;
+}
