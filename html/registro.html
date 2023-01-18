@@ -1,12 +1,84 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alice" rel="stylesheet">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/registro_styles.css">
+    <title>Registro</title>
 </head>
+
 <body>
-    
+    <div class="container-fluid">
+        <div class="ftco-section">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-6 col-lg-4">
+                        <div class="login-wrap p-0">
+                            <h3 class="mb-4 text-center">Login</h3>
+                            <form action="#" class="signin-form">
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label>Nombre</label>
+                                            <input class="form-control" placeholder="Nombre" required>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Apellidos</label>
+                                            <input  class="form-control" placeholder="Apellidos" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label>Correo</label>
+                                            <input  class="form-control" placeholder="Correo" required>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Contraseña</label>
+                                            <input  class="form-control" placeholder="Contraseña"  trype="password" required>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <label>Móvil</label>
+                                    <input  class="form-control" placeholder="Móvil" required>
+                                        </div>
+                                        <div class="col-6">
+                                            <label>Comunidad</label>
+                                            <select id="comunidad" class="form-select" name="comunidad">
+                                                <option value="Andalucía">Andalucía</option>
+                                                <option value="Madrid">Madrid</option>
+                                                <option value="Valencia">Valencia</option>
+                                                <option value="Castilla">Castilla</option>
+                                                <option value="Aragón">Aragón</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                    <label>Observaciones</label><br>
+                                    <textarea type="text" name="observaciones" ></textarea><br>
+                                </div>
+                                <div class="social d-flex text-center">
+                                    <a href="#" class="btn-login px-2 py-2 mr-md-1 rounded"> Registrarse</a>
+                                    <a href="login.html" class="btn-login px-2 py-2 ml-md-1 rounded"> Cancelar</a>
+                                </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="footer">
+            <img src="../images/logo.png" class="logo">
+        </div>
+    </footer>
 </body>
+
 </html>

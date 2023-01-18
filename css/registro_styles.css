@@ -1,0 +1,73 @@
+body {
+    background-image: url(../images/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.login-wrap h3 {
+    font-family: 'Alice';
+    color: #fff;
+}
+.login-wrap .social a {
+    width: 100%;
+    display: block;
+    color: #000;
+    background: #fff;
+    margin-left: 10px;;
+}
+.form-control {
+    height: 50px;
+    background: transparent;
+    border: solid 1px rgba(255, 255, 255, 0.8) ;
+    color:rgba(255, 255, 255, 0.8) ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+label{
+    color:#fff
+}
+.form-select{
+    height: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff !important;
+}
+textarea{
+    height: 50px;
+    background:transparent;
+    border: solid 1px rgba(255, 255, 255, 0.8) ;
+    color: #fff !important;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 620px;
+    height: 200px;
+    resize: none;
+}
+.btn.btn-primary {
+    background: #fff;
+    color: #000 !important;
+}
+.btn.btn-primary:hover {
+    background:#a6ddff ;
+    color: #008575 !important;
+}
+
+.btn-login{
+    background: #fff;
+  color: #000 !important;
+}
+.social .btn-login:hover{
+    background: #a6ddff;
+    color: #008575 !important;
+  }
+  .footer{
+    margin-top: 10px;
+}
+.footer img{
+    display:block;
+    margin: auto;
+}
