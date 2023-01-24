@@ -36,7 +36,7 @@
                 <p class="asteriscos">****************************</p>
                 <div class="row">
                     <div class="col-6">
-                        <p class="p totalPagar">Total a pagar</p>
+                        <p class="p ">Total a pagar</p>
                     </div>
                     <div class="col-6">
                         <p class="p total"></p>
@@ -47,12 +47,26 @@
             <div class="col-6">
                 <form class="fomaPago">
                     <label>Numero de tarjeta</label><br>
-                    <input type="text" class="tarjeta" id="tarjeta" maxlength="19">
-                    <input class="mes" id="mes" type="text">
-                    <input class="anio" id="anio" type="text">
-                    <input class="cvv" id="cvv" type="text">
-                    <div class="btn" id="cancelar">Cancelar</div>
-                    <div class="btn" id="aceptar">Aceptar</div>
+                    <input type="text" class="tarjeta form-control" id="tarjeta" maxlength="19"><br>
+                    
+                    <div class="row">
+                        <div class="col-2">
+                            <label>Mes</label>
+                            <input class="mes form-control" id="mes" type="text">
+                        </div>
+                        <div class="col-2">
+                            <label>Año</label>
+                            <input class="anio form-control" id="anio" type="text">
+                        </div>
+                        <div class="col-2">
+                            <label>CVV</label>
+                            <input class="cvv form-control" id="cvv" type="text"><br>
+                        </div>
+                    </div>
+                    <div class="social d-flex text-center">
+                                    <a href="#" class="btn-primary px-2 py-2 mr-md-1 rounded"> Aceptar</a>
+                                    <a href="registro.html" class="cancelar btn-primary px-2 py-2 ml-md-1 rounded"> Cancelar</a>
+                                </div>
                 </form>
             </div>
         </div>

@@ -25,29 +25,21 @@ body {
 .form-control::-webkit-input-placeholder {
     color: rgba(255, 255, 255, 0.8) !important;
 }
-.btn.btn-primary {
-    background: #fff;
-    color: #000 !important;
-}
-.btn.btn-primary:hover {
-    background:#a6ddff ;
-    color: #008575 !important;
-}
 .rmfp{
     color:#fff;
 }
 .fpass{
     color:#fff;
 }
-.btn-login{
+.btn-primary{
     background: #fff;
   color: #000 !important;
 }
-.social .btn-login:hover{
+.social .btn-primary:hover{
     background: #a6ddff;
     color: #008575 !important;
-  }
-  .footer{
+}
+.footer{
     margin-top: 10px;
 }
 .footer img{

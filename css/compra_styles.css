@@ -35,3 +35,55 @@ body {
     display:flex;
     width: 50%;
 }
+.form-control {
+    height: 50px;
+    background: transparent;
+    border: solid 1px rgba(255, 255, 255, 0.8) ;
+    color:rgba(255, 255, 255, 0.8) ;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+label{
+    color:#fff
+}
+.form-select{
+    height: 50px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    color: #fff !important;
+}
+
+.btn-primary{
+    background: #fff;
+  color: #000 !important;
+
+}
+.social .btn-primary:hover{
+    background: #a6ddff;
+    color: #008575 !important;
+  }
+  .tarjeta{
+    width: 300px;
+    height: 25px;
+}
+.mes{
+    width: 80px;
+    height: 20px;
+    margin-right: 5px;
+}
+.anio{
+    width: 80px;
+    height: 20px;
+    margin-right: 5px;
+}
+.cvv{
+    width: 90px;
+    height: 20px;
+    margin-right: 5px;
+}
+.cancelar{
+    margin-left: 80px;
+}
