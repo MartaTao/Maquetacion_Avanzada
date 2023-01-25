@@ -1,0 +1,20 @@
+body {
+    background-image: url(../images/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.eslogan {
+    font-family: "Potta One", cursive;
+    color: #fff;
+}
+
+.info {
+    font-family: 'Alice';
+}
+.card{
+    width: 800px;
+    margin-left: 20px;
+}
+.card img{
+    margin-left: 20px;
+}
