@@ -8,9 +8,6 @@ body {
     display: block;
     margin:auto;
 }
-.recibo.active{
-    display:block;
-}
 .ticket{
     display:block;
     margin-left: 170px;

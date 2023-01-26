@@ -12,9 +12,20 @@ body {
     font-family: 'Alice';
 }
 .card{
-    width: 800px;
     margin-left: 20px;
 }
 .card img{
+    margin-left: 20px;
+}
+.row{
+    margin-top: 20px;
+}
+.card-title{
+    text-align: center;
+}
+.card-text{
+    margin-left: 20px;
+}
+.btn{
     margin-left: 20px;
 }

@@ -1,0 +1,26 @@
+body {
+    background-image: url(../images/fondo.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 100%;
+}
+.logo{
+    display: block;
+    margin:auto;
+}
+.ticket{
+    background-color: #fff;
+    color:#000;
+    font-family: 'Alice';
+    margin:20px 20px 10px 20px;
+}
+.imagen img{
+    display:block;
+    margin: auto;
+}
+.asteriscos{
+    text-align: center;
+}
+.p{
+    margin-left:10px;
+}
