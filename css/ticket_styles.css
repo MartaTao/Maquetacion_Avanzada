@@ -21,6 +21,9 @@ body {
 .asteriscos{
     text-align: center;
 }
-.p{
-    margin-left:10px;
+p{
+    text-align: center;
+}
+h5{
+    text-align: center;
 }

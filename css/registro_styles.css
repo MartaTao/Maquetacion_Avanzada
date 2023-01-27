@@ -20,7 +20,6 @@ body {
 }
 
 .form-control {
-    height: 50px;
     background: transparent;
     border: solid 1px rgba(255, 255, 255, 0.8);
     color: rgba(255, 255, 255, 0.8);
@@ -34,7 +33,6 @@ label {
 }
 
 .form-select {
-    height: 50px;
     background: rgba(255, 255, 255, 0.08);
     border-radius: 10px;
     padding: 20px;
@@ -62,7 +60,141 @@ textarea {
     background: #a6ddff;
     color: #008575 !important;
   }
+  .correo.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.correo.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorCorreo{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: none;
+}
+.errorCorreo.active{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: flex;
+    color:red;
+    float: left;
+}
+.movil.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.movil.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorMovil{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: none;
+}
+.errorMovil.active{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: flex;
+    color:red;
+}
+.nombre.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.nombre.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorNombre{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: none;
+}
+.errorNombre.active{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: flex;
+    color:red;
+    float: left;
+    text-align: left;
+}
 
+.apellidos.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.apellidos.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorApellidos{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: none;
+}
+.errorApellidos.active{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: flex;
+    color:red;
+    float: right;
+    text-align: left;
+    margin-right: 190px;
+}
+.password.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.password.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorCon{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: none;
+}
+.errorCon.active{
+    margin-top: 0px;
+    margin-bottom: 3px;
+    display: flex;
+    color:red;
+    float: right;
+    margin-right: 200px;
+    text-align: left;
+}
 .footer {
     margin-top: 10px;
 }
