@@ -4,6 +4,7 @@ let infoCuenta={
     correo: "",
     contraseña: "",
     movil: "",
+    comunidad:"",
     observaciones:"",
     suscripcion:"",
     metodoPago:{
@@ -28,10 +29,10 @@ function validar_correo(){
         $(".errorCorreo").textContent="El correo introducido no es válido"
         $(".errorCorreo").classList.add("active");
     }else{
-        $(".correo").classList.remove("correcto");
-            $(".errorCorreo").textContent="El correo introducido ya existe"
-            $(".errorCorreo").classList.add("active");
-        infoCuenta.correo=email;
+        $(".correo").classList.remove("incorrecto");
+            $(".errorCorreo").classList.remove("active");
+            $(".correo").classList.add("correcto");
+            infoCuenta.correo=email;
        /* let totalCorreos=parseInt(sessionStorage.getItem("numCuentas"));
         let i=0;
         let correoExiste=false;
@@ -44,7 +45,7 @@ function validar_correo(){
         if(!correoExiste){
             $(".correo").classList.remove("incorrecto");
             $(".errorCorreo").classList.remove("active");
-            $("#email").classList.add("correcto");
+            $(".correo").classList.add("correcto");
             infoCuenta.correo=email;
         }else{
             $(".correo").classList.remove("correcto");
@@ -58,16 +59,16 @@ $('.movil').addEventListener('keyup',()=>{
     validar_movil()
 })
 function validar_movil(){
-    var numtel = document.getElementById("movil").value;
+    var numtel = $(".movil").value;
     var MOVIL_REGEX= /^\d{9}|\d{3} \d{3} \d{3}|\d{3} \d{2} \d{2} \d{2}/;
     if(!numtel.match(MOVIL_REGEX)){
-        $("#movil").classList.remove("correcto");
-        $("#movil").classList.add("incorrecto");
+        $(".movil").classList.remove("correcto");
+        $(".movil").classList.add("incorrecto");
         $(".errorMovil").classList.add("active");
     }else{
-        $("#movil").classList.remove("incorrecto");
+        $(".movil").classList.remove("incorrecto");
         $(".errorMovil").classList.remove("active");
-        $("#movil").classList.add("correcto");
+        $(".movil").classList.add("correcto");
         infoCuenta.movil=numtel;
     }
 }
@@ -122,8 +123,18 @@ function validar_password(){
         infoCuenta.contraseña=password;
     }
 }
+$('.comunidad').addEventListener('change',()=>{
+    infoCuenta.comunidad=$('.comunidad').value;
+})
 $('#registrarse').addEventListener('click',()=>{
-    if(infoCuenta.nombre !="" && infoCuenta.apellidos!="" && infoCuenta.correo!="" && infoCuenta.contraseña!="" && infoCuenta.movil!=""){
-        console.log('ok');
+    if(infoCuenta.nombre !="" && infoCuenta.apellidos!="" && infoCuenta.correo!="" && infoCuenta.contraseña!="" && infoCuenta.movil!="" && infoCuenta.comunidad!=""){
+        if(sessionStorage.getItem("numCuentas")==null){
+            contadorCuenta=0;
+        }else{
+            contadorCuenta=sessionStorage.getItem("numCuentas")
+        }
+        sessionStorage.setItem(`cuenta${contadorCuenta}`,JSON.stringify(infoCuenta));
+        sessionStorage.setItem("numCuentas",`${contadorCuenta}`);
+        location.href="suscripciones.html";
     }
 });

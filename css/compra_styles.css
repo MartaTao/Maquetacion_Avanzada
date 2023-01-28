@@ -2,7 +2,8 @@ body {
     background-image: url(../images/fondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
-    height: 100%;
+    font-family: "Potta One", cursive;
+    color: #fff;
 }
 .logo{
     display: block;
@@ -83,4 +84,124 @@ label{
 }
 .cancelar{
     margin-left: 80px;
+}
+.errorMes{
+    display:none;
+}
+.errorMes.active{
+    display:flex;
+    color:red;
+}
+.errorAnio{
+    display:none;
+}
+.errorAnio.active{
+    display:flex;
+    color:red;
+}
+.tarjeta.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.tarjeta.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorTarjeta{
+    display:none;
+}
+.errorTarjeta.active{
+    display:flex;
+    color:red;
+}
+.tarjeta.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.tarjeta.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorTarjeta{
+    display:none;
+}
+.errorTarjeta.active{
+    display:flex;
+    color:red;
+}
+.mes.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.mes.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.anio.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.anio.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cvv.incorrecto{
+    border:solid 2px red;
+    background-color: lightcoral;
+    background-image: url("../images/wrong.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.cvv.correcto{
+    border:solid 2px green;
+    background-color: lightgreen;
+    background-image: url("../images/correct.png");
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.errorMes{
+    display:none;
+}
+.errorMes.active{
+    display:flex;
+    color:red;
+}
+.errorAnio{
+    display:none;
+}
+.errorAnio.active{
+    display:flex;
+    color:red;
+}
+.errorCVV{
+    display:none;
+}
+.errorCVV.active{
+    display:flex;
+    color:red;
+    margin-left: 220px;
 }

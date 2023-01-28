@@ -2,14 +2,12 @@ body {
     background-image: url(../images/fondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
-}
-.eslogan {
     font-family: "Potta One", cursive;
     color: #fff;
 }
-
 .info {
     font-family: 'Alice';
+    color:#000;
 }
 .card{
     margin-left: 20px;
@@ -28,4 +26,13 @@ body {
 }
 .btn{
     margin-left: 20px;
+}
+.carritoBtn{
+    float: right;
+    font-size: 40px;
+    margin-right: 50px;
+    cursor: pointer;
+}
+.contenido{
+    color:#000;
 }

@@ -65,16 +65,18 @@
                             <h3 class="mb-4 text-center">Login</h3>
                             <form action="#" class="signin-form">
                                 <div class="form-group">
-                                    <input type="text" class="form-control" placeholder="Correo" required>
+                                    <input type="text" class="correo form-control" placeholder="Correo" required>
                                 </div>
                                 <div class="form-group">
-                                    <input id="password-field" type="password" class="form-control"
+                                    <input id="password-field" type="password" class="password form-control"
                                         placeholder="Contraseña" required>
                                     <span toggle="#password-field"
                                         class="fa fa-fw fa-eye field-icon toggle-password"></span>
                                 </div>
+                                <label class="cuentaNoExist">No hay ninguna cuenta con ese correo</label>
+                                <label class="errSesion">Correo o contraseña incorecta</label>
                                 <div class="social d-flex text-center">
-                                    <a href="#" class="btn-primary px-2 py-2 mr-md-1 rounded"> Login</a>
+                                    <a  class="login btn-primary px-2 py-2 mr-md-1 rounded"> Login</a>
                                     <a href="registro.html" class="btn-primary px-2 py-2 ml-md-1 rounded"> Register</a>
                                 </div>
                                 <div class="rmfp form-group d-md-flex">
@@ -100,6 +102,7 @@
             <img src="../images/logo.png" class="logo">
         </div>
     </footer>
+    <script src="../js/login.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 </body>
 

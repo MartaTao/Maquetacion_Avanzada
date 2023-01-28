@@ -10,7 +10,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Alice" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Patua+One" rel="stylesheet">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
-    <link rel="stylesheet" href="../css/compra_styles.css">
+    <link rel="stylesheet" href="../css/facturacion_styles.css">
     <title>Document</title>
 </head>
 
@@ -45,10 +45,9 @@
                 </ul>
             </div>
             <div class="d-flex align-items-center">
-                <a class="nav-link" href="#">
-                    Login
+                <a class="nav-link" href="login.html">
+                    Cerrar sesión
                 </a>
-                <a class="nav-link" href="#">Sign up</a>
             </div>
         </div>
         </div>
@@ -60,57 +59,42 @@
                     <div class="imagen">
                         <img src="../images/logoNegro.png">
                     </div>
-                    <div class="row">
-                        <div class="col-4">
-                            <p class="p producto"></p>
+                    <div class="factura">
+                        <div class="row">
+                            <div class="col-4">Nombre</div>
+                            <div class="col-4">Precio</div>
+                            <div class="col-4">Cantidad</div>
                         </div>
-                        <div class="col-4">
-                            <p class="p cantidad"></p>
-                        </div>
-                        <div class="col-4">
-                            <p class="p precioUnidad"></p>
-                        </div>
-                </div>
-                <p class="asteriscos">****************************</p>
-                <div class="row">
-                    <div class="col-5">
-                        <p class="p ">Total a pagar</p>
                     </div>
-                    <div class="col-3">
-                    </div>
-                    <div class="col-4">
-                        <p class="p total"></p>
-                    </div>
-                </div>
                 </div>
             </div>
             <div class="col-6">
+                <div class="pago">
                 <form class="fomaPago">
                     <label>Numero de tarjeta</label><br>
                     <input type="text" class="tarjeta form-control" id="tarjeta" maxlength="19"><br>
-                    <label class="errorTarjeta">Formato no válido</label>
                     <div class="row">
-                        <div class="col-2">
+                        <div class="col-3">
                             <label>Mes</label>
                             <input class="mes form-control" id="mes" type="text">
-                            <label class="errorMes">Formáto inválido</label>
                         </div>
-                        <div class="col-2">
+                        <div class="col-3">
                             <label>Año</label>
                             <input class="anio form-control" id="anio" type="text">
-                            <label class="errorAnio">Formáto inválido</label>
                         </div>
-                        <div class="col-2">
+                        <div class="col-3">
                             <label>CVV</label>
                             <input class="cvv form-control" id="cvv" type="text"><br>
-                            <label class="errorCVV">Formáto inválido</label>
                         </div>
-                    </div>
-                    <div class="social d-flex text-center">
-                                    <a class="aceptar btn-primary px-2 py-2 mr-md-1 rounded"> Aceptar</a>
-                                    <a href="registro.html" class="cancelar btn-primary px-2 py-2 ml-md-1 rounded"> Cancelar</a>
-                                </div>
+                        <div class="row">
+                            <div class="col-6"></div>
+                            <div class="col-6">
+                                <a href="ticket.html" class="finalizar btn btn-primary px-2 py-2 mr-md-1 rounded" id="finalizar">Finalizar comprar</a>
+                            </div>
+                        </div>
                 </form>
+            </div>
+        </div>
             </div>
         </div>
     </div>
@@ -119,7 +103,7 @@
             <img src="../images/logo.png" class="logo">
         </div>
     </footer>
-    <script src="../js/compra.js"></script>
+    <script src="../js/facturacion.js"></script>
     <script src="../js/bootstrap.min.js"></script>
 </body>
 
