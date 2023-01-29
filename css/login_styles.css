@@ -2,6 +2,7 @@ body {
     background-image: url(../images/fondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: black;
     font-family: "Potta One", cursive;
     color: #fff;
 }

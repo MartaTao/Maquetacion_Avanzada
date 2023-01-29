@@ -43,14 +43,14 @@ function muestraPerfil() {
                 fila.classList.add(`justify-content-center`);
                 $(".info").appendChild(fila);
                 $(`.info${cont}`).innerHTML += `
-                <div class="col-6">
+                <div class="col-lg-6 col-sm-12 col-md-12">
                     <div class="card">
                         <div class="row">
                             <h1 class="card-title">${nombre}</h1>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-sm-5 col-md-6">
                                 <img src="${img}" class="card-img-top" alt="...">
                             </div>
-                            <div class="col-8">
+                            <div class="col-lg-8 col-sm-7 col-md-6">
                                 <p class="card-text">${descripcion}
                                 </p>
                             </div>
@@ -77,7 +77,7 @@ function muestraPerfil() {
                 fila.classList.add(`justify-content-center`);
                 $(".info").appendChild(fila);
                 $(`.info${cont}`).innerHTML += `
-                <div class="col-6">
+                <div class="col-6 col-sm-12 col-md-12">
                     <div class="card">
                         <div class="row">
                             <h1 class="card-title">${nombre}</h1>
@@ -106,7 +106,9 @@ function muestraPerfil() {
                 if (img == "") {
                     fila = document.createElement("div");
                     fila.classList.add(`info${cont}`);
-                    fila.classList.add(`col-6`);
+                    fila.classList.add(`col-lg-6`);
+                    fila.classList.add('col-sm-12');
+                    fila.classList.add('col-md-12');
                     $(`.info${cont - 1}`).appendChild(fila);
                     $(`.info${cont}`).innerHTML += `
                     <div class="card">
@@ -133,16 +135,18 @@ function muestraPerfil() {
                     cont++;
                 } else {
                     fila = document.createElement("div");
-                    fila.classList.add(`col-6`);
+                    fila.classList.add(`col-lg-6`);
+                    fila.classList.add('col-sm-12');
+                    fila.classList.add('col-md-12')
                     $(`.info${cont - 1}`).appendChild(fila);
                     $(`.info${cont}`).innerHTML += `
                     <div class="card">
                         <div class="row">
                             <h1 class="card-title">${nombre}</h1>
-                            <div class="col-4">
+                            <div class="col-lg-4 col-sm-5 col-md-6">
                                 <img src="${img}" class="card-img-top" alt="...">
                             </div>
-                            <div class="col-8">
+                            <div class="col-lg-8 col-sm-7 col-md-6">
                                 <p class="card-text">${descripcion}
                                 </p>
                             </div>

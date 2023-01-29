@@ -1,7 +1,7 @@
 let cursos=[
     {
         id: 1,
-        nivel:"Sibarita",
+        nivel:"Basico",
         nombre:"Cata de vinos",
         descripcion:"Quisque viverra volutpat quam, vel tempus purus tempor vel. Suspendisse in pellentesque lectus. In ac mauris ut dui ultricies eleifend vitae in massa. Proin nibh dui, efficitur sit amet lectus at, elementum luctus dolor. Quisque eleifend posuere magna, quis dapibus magna posuere sit amet. Aliquam odio elit, vulputate et rhoncus vel, sodales sed velit. Proin blandit justo eu turpis tincidunt feugiat. Quisque lorem lorem, dapibus a enim vel, interdum consectetur lectus. Nulla tempus eros a cursus rhoncus. Suspendisse potenti. Mauris ultrices tortor nisi, eget pharetra sem commodo sit amet. Nunc et metus ac mi placerat ultrices. Suspendisse potenti. Duis porttitor nisl vel erat imperdiet convallis.",
         img:"../images/cataVino.jpg",
@@ -13,7 +13,7 @@ let cursos=[
     },
     {
         id: 2,
-        nivel:"Sibarita",
+        nivel:"Basico",
         nombre:"Recolección de setas",
         descripcion:"Donec sit amet tempor mi, quis vestibulum eros. Praesent malesuada, justo non finibus fringilla, enim mauris porta nibh, in tempus leo sapien nec quam. Curabitur id porta quam, vitae molestie justo. Sed vulputate in urna sed efficitur. Suspendisse at porta tellus. Cras varius nulla mi, ac molestie quam porta nec. Nam eget enim sapien.",
         img:"",

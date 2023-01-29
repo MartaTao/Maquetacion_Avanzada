@@ -2,6 +2,7 @@ body {
     background-image: url(../images/fondo.png);
     background-repeat: no-repeat;
     background-size: 100%;
+    background-color: black;
     font-family: "Potta One", cursive;
     color: #fff;
 }
@@ -42,15 +43,12 @@ label {
 }
 
 textarea {
-    height: 50px;
     background: transparent;
     border: solid 1px rgba(255, 255, 255, 0.8);
     color: #fff !important;
     border-radius: 10px;
     padding: 20px;
     margin-bottom: 20px;
-    width: 620px;
-    height: 200px;
     resize: none;
 }
 .btn-primary{
